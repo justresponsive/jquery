@@ -24,5 +24,5 @@ $('#links').append($pdfCheckbox);
 
 $('a').each(function(){
   const url = $(this).attr('href');
-  $(this).parent().append(`(${url})`);
+  $(this).parent().append(` (${url})`);
 });
